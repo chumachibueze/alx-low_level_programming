@@ -17,6 +17,7 @@ else
 {
 putchar(alphabet_lower);
 }
+}
 putchar('\n');
 return (0);
 }
