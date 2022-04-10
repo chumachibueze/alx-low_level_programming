@@ -13,6 +13,7 @@ if (number == 57)
 {
 break;
 }
+putchar(number);
 putchar(',');
 putchar(' ');
 }
