@@ -9,7 +9,7 @@ int main(void)
 int number;
 for (number = 48; number <= 57; number++)
 {
-if (number == 57)
+if (number >= 57)
 {
 break;
 }
