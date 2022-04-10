@@ -9,7 +9,7 @@ int main(void)
 char alphabet_lower;
 for (alphabet_lower = 'a'; alphabet_lower <= 'z'; alphabet_lower++)
 {
-if (alphabet_lower == 'q'|| alphabet_lower == 'e')
+if (alphabet_lower == 'q' || alphabet_lower == 'e')
 {
 continue;
 }
