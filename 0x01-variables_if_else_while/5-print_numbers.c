@@ -11,6 +11,6 @@ for (single_digit = 0; single_digit <= 10; single_digit++)
 {
 printf("%d", single_digit);
 }
-printf('\n');
+printf('%d\n');
 return (0);
 }
