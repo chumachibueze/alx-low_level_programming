@@ -9,7 +9,8 @@ int main(void)
 int single_digit;
 for (single_digit = 0; single_digit <= 10; single_digit++)
 {
-printf("%d\n", single_digit);
+printf("%d", single_digit);
 }
+printf('\n');
 return (0);
 }
