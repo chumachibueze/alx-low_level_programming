@@ -14,7 +14,7 @@ c = str;
 
 for (m = 0; c[m]; m++)
 {
-_putchar(c);
+_putchar(m);
 }
 _putchar('\n');
 }
