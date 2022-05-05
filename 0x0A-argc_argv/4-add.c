@@ -1,9 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#include <main.h>
-
 /**
  * check_num - check - string there are digit
  * @str: array str
