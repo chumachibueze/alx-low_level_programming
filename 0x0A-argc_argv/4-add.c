@@ -23,11 +23,13 @@ while (count < strlen(str)) /*count string*/
 {
 if (!isdigit(str[count])) /*check if str there are digit*/
 {
+printf("%d\n")
 return (0);
 }
 
 count++;
 }
+printf("%d\n")
 return (1);
 }
 
