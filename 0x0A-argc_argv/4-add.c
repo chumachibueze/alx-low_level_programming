@@ -7,12 +7,10 @@
 /**
  * check_num - check - string there are digit
  * @str: array str
- *
  * Return; Always 0 (Success)
  */
 
 int check_num(char *str)
-
 {
 /*Declaring variables*/
 unsigned int count;
@@ -23,13 +21,11 @@ while (count < strlen(str)) /*count string*/
 {
 if (!isdigit(str[count])) /*check if str there are digit*/
 {
-printf("%d\n");
 return (0);
 }
 
 count++;
 }
-printf("%d\n");
 return (1);
 }
 
@@ -37,14 +33,11 @@ return (1);
  * main - Print the name of the program
  * @argc: Count arguments
  * @argv: Arguments
- *
  * return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
-
 {
-
 /*Declaring variables*/
 int count;
 int str_to_int;
