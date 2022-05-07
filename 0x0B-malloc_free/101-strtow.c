@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * strtow - splits a string into words
  * @str: string of words to be split
- * @countWords: count the words
  * Return: double pointer to strings
  */
 char **strtow(char *str)
