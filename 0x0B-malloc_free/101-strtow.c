@@ -7,6 +7,7 @@
  * @str: string of words to be split
  * Return: double pointer to strings
  */
+int countWords(str);
 char **strtow(char *str)
 {
 char **ptr;
