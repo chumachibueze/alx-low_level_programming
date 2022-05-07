@@ -26,14 +26,14 @@ len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
 {
-	i -= 1;
-	while (i >= 0)
-	{
-		free(ptr[i]);
-			i--;
-	}
-	free(ptr);
-	return (NULL);
+i -= 1;
+while (i >= 0)
+{
+	free(ptr[i]);
+		i--;
+}
+free(ptr);
+return (NULL);
 }
 for (k = 0; k < len; k++)
 	ptr[i][k] = str[start++];
