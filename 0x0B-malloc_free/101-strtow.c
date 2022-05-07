@@ -8,8 +8,6 @@
  * Return: double pointer to strings
  */
 int countWords(char *str);
-int startIndex(str, int j);
-int endIndex(str, int start);
 char **strtow(char *str)
 {
 char **ptr;
@@ -23,8 +21,8 @@ if (!ptr)
 	return (NULL);
 for (i = 0; i < words; i++)
 {
-start = startIndex(str, j);
-end = endIndex(str, start);
+start = int startIndex(str, j);
+end = int endIndex(str, start);
 len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
