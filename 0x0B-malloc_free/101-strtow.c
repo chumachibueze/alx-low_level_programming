@@ -8,8 +8,8 @@
  * Return: double pointer to strings
  */
 int countWords(char *str);
-int startIndex(str, j);
-int endIndex(str, start);
+int startIndex(str, int j);
+int endIndex(str, int start);
 char **strtow(char *str)
 {
 char **ptr;
