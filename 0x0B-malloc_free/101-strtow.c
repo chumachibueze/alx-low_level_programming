@@ -21,8 +21,8 @@ if (!ptr)
 	return (NULL);
 for (i = 0; i < words; i++)
 {
-int start =  startIndex(str, j);
-int end = endIndex(str, start);
+start =  startIndex(str, j);
+end = endIndex(str, start);
 len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
