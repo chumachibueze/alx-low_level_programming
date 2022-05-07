@@ -29,8 +29,8 @@ if (!ptr[i])
 i -= 1;
 while (i >= 0)
 {
-	free(ptr[i]);
-		i--;
+free(ptr[i]);
+i--;
 }
 free(ptr);
 return (NULL);
@@ -64,7 +64,7 @@ int startIndex(char *s, int index)
 {
 
 while (isSpace(*(s + index)))
-	index++;
+index++;
 return (index);
 }
 
@@ -77,7 +77,7 @@ return (index);
 int endIndex(char *s, int index)
 {
 while (!isSpace(*(s + index)))
-	index++;
+index++;
 return (index);
 }
 
@@ -94,11 +94,11 @@ int words = 0;
 while (*s)
 {
 if (isSpace(*s) && wordOn)
-	wordOn = 0;
+wordOn = 0;
 else if (!isSpace(*s) && !wordOn)
 {
-	wordOn = 1;
-	words++;
+wordOn = 1;
+words++;
 }
 s++;
 }
